@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugerencias</title>
+    <link rel="stylesheet" href="css/centrar.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="2" style="background-color:cornflowerblue;"><h1><p style="color: white;">SUGERENCIAS</p></h1></td>
+    </tr>
+    <tr>
+    <form method="POST">
+    <td colspan="2">
+     <h2 style="color: cornflowerblue;">Sección A: Información del cliente</h2>
+     <hr>
+    </td>
+    <tr>
+    <td colspan="2">
+     <label for="nombre">Nombre:             </label>
+     <input type="text" name="nombre" style="text-transform: uppercase;" size="35" minlength="4" maxlength="100" placeholder="Ingrese su nombre" required>
+     </p>
+     <p>
+     <label for="primer">Primer apellido:    </label>
+     <input type="text" name="primer" style="text-transform: uppercase;" size="35" minlength="4" maxlength="100" placeholder="Ingrese su primer apellido" required>
+     </p>
+     <p>
+     <label for="segundo">Segundo apellido:   </label>
+     <input type="text" name="segundo" style="text-transform: uppercase;" size="35" minlength="4" maxlength="100" placeholder="Ingrese su segundo apellido" required>
+     </p>
+     <p>
+     <label for="email">Correo electrónico: </label>    
+     <input type="email" name="email" size="30" placeholder="ejemplo@gmail/hotmail.com" required> 
+     <input type="email" name="email" size="30" placeholder="correo(opcional)">
+     <input type="email" name="email" size="30" placeholder="correo(opcional)">
+     </p>
+     <p>
+     <label for="telefono">Número de teléfono:</label>
+     <input type="number" name="telefono" size="20" max="999999999" placeholder="999999999" required><br>
+     </p>
+     <p>
+     <h2 style="color: cornflowerblue;">Sección B: Sugerencias del cliente</h2>
+     <hr>
+    <tr>
+        <td colspan="2">
+            <dl>
+                <dt>Sugerencias: </dt>
+                <dd>
+                    <textarea name="viaje" cols="90" rows="10"></textarea>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <td style="color: black;"><button style="color:black;">Enviar</button></td>
+    </tr>
+    </form>
+</table>
+</body>
+</html>
